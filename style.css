@@ -1,0 +1,248 @@
+html, body, ul, ol, li, form {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    width: 100%;
+    font-family: arial, sans-serif;
+    color: #061a31;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.clearfix {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #1661ab;
+}
+a:hover {
+    color: #4994de;
+}
+h2, h3 {
+    opacity: 0.8;
+}
+body > header, .wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+header > a {
+    float: right;
+    margin: 0;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: right;
+}
+header > a span {
+  font-size: 80%;
+  color: #F17433;
+}
+header h1 {
+    color: #F17433;
+    margin: 5% 0;
+}
+body > section, footer {
+    background-color: #0d3a66;
+    min-height: 300px;
+    width: 100%;
+}
+section nav {
+    background-color: #061a31;
+    width: 70%;
+    min-height: 5%;
+    margin: 0 auto;
+    text-align: center;
+}
+section nav a {
+    display: inline-block;
+    color: #fff;
+    min-height: 5%;
+    padding: 2%;
+}
+section nav a:hover {
+    background-color: #fff;
+    color: #061a31;
+}
+main > h2 {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 10%;
+    opacity: 0.8;
+}
+main article h3 {
+    color: #F17433;
+    text-align: center;
+    text-transform: uppercase;
+}
+main > article {
+    float: left;
+    width: 30.33%;
+    margin: 4.5% 4.5% 4.5% 0;
+    text-align: justify;
+}
+article:nth-of-type(3) {
+    margin-right: 0;
+}
+main img {
+    width: 34%;
+    margin-top: 4.5%;
+    float: left;
+    opacity: 0.9;
+}
+article:last-of-type {
+    width: 61.5%;
+    text-indent: 10%;
+    float: right;
+    margin-right: 0;
+}
+footer {
+    margin: 8% 0 0;
+}
+footer section {
+    float: left;
+    width: 30.33%;
+    margin-right: 4.5%;
+    text-align: center;
+    color: #fff;
+}
+footer section h3 {
+    text-decoration: underline;
+}
+footer section a {
+    color: #fff;
+    display: inline-block;
+    margin: 0.4% 0;
+    font-size: 1.1em;
+}
+footer section a:hover {
+  color: #F17433;
+}
+footer a i:first-of-type {
+  color: #fff;
+  font-size: 200% !important;
+  letter-spacing: 0.3em;
+}
+footer a i:first-of-type:hover {
+  color: #4994de;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+}
+footer section:last-of-type {
+    margin-right: 0;
+}
+footer section input {
+    height: 2.5em;
+    border: 0;
+    margin-bottom: 1%;
+    width: 100%;
+}
+footer section input:focus, footer section textarea:focus {
+  outline: .2em solid #F17433;
+}
+footer section textarea {
+    border: 0;
+    width: 99.4%;
+    margin: 0;
+}
+footer section input:last-of-type {
+	margin: 0;
+	width: 100.5%;
+	font-size: 110%;
+	color: #4994de;
+	font-weight: bold;
+}
+#copyright {
+	color: #fff;
+	font-size: 65%;
+	float: right;
+	color: #ccc;
+}
+
+/*--- Media Queries! ---*/
+@media screen and (max-width: 740px) {
+  body > header, .wrapper {
+      width: 90%;
+  }
+  header > a, header > a span {
+    display: none;
+  }
+  header h1 {
+      margin: 12% 0;
+      font-size: 240%;
+      text-align: center;
+      clear: both;
+  }
+  section nav {
+      width: 100%;
+  }
+  section nav a {
+    font-size: 120%;
+  }
+  main > h2 {
+      font-size: 230%;
+      margin-bottom: 0;
+  }
+  main article h3 {
+      font-size: 140%;
+      color: #F17433;
+  }
+  main > article {
+      width: 100%;
+      margin: 0;
+      font-size: 130%;
+  }
+  main img {
+      width: 95%;
+      float: none;
+      display: block;
+      margin: 0 auto;
+      clear: both;
+  }
+  article h2 {
+    text-align: center;
+  }
+  article:last-of-type {
+      width: 100%;
+      float: left;
+      text-indent: 0%;
+      margin: 0;
+  }
+  footer {
+      margin: 0;
+  }
+  footer section {
+      display: block;
+      width: 100%;
+      margin: 0;
+      font-size: 130%;
+  }
+  footer section h3 {
+      font-size: 140%;
+  }
+  footer section input {
+      height: 3.5em;
+      font-size: 80%;
+  }
+  footer section textarea {
+      font-size: 80%;
+  }
+  footer section input:last-of-type {
+  	margin-bottom: 10%;
+    height: 2em;
+  }
+}
