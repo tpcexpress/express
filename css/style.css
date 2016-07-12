@@ -154,10 +154,10 @@ footer section input {
 footer section input:focus, footer section textarea:focus {
   outline: .2em solid #F17433;
 }
-footer section textarea {
+footer section #textarea {
     border: 0;
-    width: 99.4%;
-    margin: 0;
+    height: 8em;
+    margin-bottom: 1%;
 }
 footer section input:last-of-type {
 	margin: 0;
