@@ -39,10 +39,10 @@ header > a {
 }
 header > a span {
   font-size: 80%;
-  color: #F17433;
+  color: #FF5100;
 }
 header h1 {
-    color: #F17433;
+    color: #FF5100;
     margin: 5% 0;
 }
 body > section, footer {
@@ -74,7 +74,7 @@ main > h2 {
     opacity: 0.8;
 }
 main article h3 {
-    color: #F17433;
+    color: #FF5100;
     text-align: center;
     text-transform: uppercase;
 }
@@ -119,7 +119,7 @@ footer section a {
     font-size: 1.1em;
 }
 footer section a:hover {
-  color: #F17433;
+  color: #FF5100;
 }
 footer a i:first-of-type {
   color: #fff;
@@ -152,7 +152,7 @@ footer section input {
     width: 100%;
 }
 footer section input:focus, footer section textarea:focus {
-  outline: .2em solid #F17433;
+  outline: .2em solid #FF5100;
 }
 footer section #textarea {
     border: 0;
@@ -199,7 +199,7 @@ footer section input:last-of-type {
   }
   main article h3 {
       font-size: 140%;
-      color: #F17433;
+      color: #FF5100;
   }
   main > article {
       width: 100%;
