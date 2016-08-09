@@ -45,7 +45,7 @@ header h1 {
     color: #F17433;
     margin: 5% 0;
 }
-.header-img {
+.express-header-img, courier-header-img, movers-header-img, cargo-header-img {
   min-height: 300px;
   background-size: cover;
   background-position: center;
@@ -58,6 +58,9 @@ header h1 {
 }
 .courier-header-img {
     background-image: url("../img/courier-header.png");
+}
+.movers-header-img {
+    background-image: url("../img/movers-header.png");
 }
 body > section, footer {
     background-color: #0d3a66;
