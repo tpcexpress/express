@@ -60,7 +60,7 @@ header h1 {
     background-image: url("../img/courier-header.png");
 }
 .movers-header-img {
-    background-image: url("../img/movers-header.png");
+    background-image: url("img/movers-header.png");
 }
 body > section, footer {
     background-color: #0d3a66;
