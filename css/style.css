@@ -51,16 +51,16 @@ header h1 {
   background-position: center;
 }
 .express-header-img {
-    background-image: url("../img/express-header.png");
+    background-image: url("../img/express-header.jpg");
 }
 .cargo-header-img {
     background-image: url("http://www.tpcexpress.info/img/cargo-header.jpg");
 }
 .courier-header-img {
-    background-image: url("http://www.tpcexpress.info/img/courier-header.png");
+    background-image: url("http://www.tpcexpress.info/img/courier-header.jpg");
 }
 .movers-header-img {
-    background-image: url("http://www.tpcexpress.info/img/movers-header.png");
+    background-image: url("http://www.tpcexpress.info/img/movers-header.jpg");
 }
 body > section, footer {
     background-color: #0d3a66;
