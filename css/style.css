@@ -209,10 +209,17 @@ footer section input:last-of-type {
   header > a, header > a span {
     display: none;
   }
+  header {
+    text-align: center;
+  }
+  header img {
+    display: inline;
+  }
   header h1 {
-      margin: 12% 0;
+      display: inline-block;
       font-size: 240%;
       text-align: center;
+      margin-top: -0.4em;
       clear: both;
   }
   .express-header-img, .courier-header-img, .movers-header-img, .cargo-header-img {
@@ -289,4 +296,10 @@ footer section input:last-of-type {
   	margin-bottom: 10%;
     height: 2em;
   }
+}
+@media screen and (max-width: 375px) {
+
+  header h1 {
+      font-size: 1.6em;
+      margin-top: 0.1em;
 }
