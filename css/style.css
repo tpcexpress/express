@@ -55,6 +55,9 @@ header h1 {
     padding-top: 1em;
     margin: 0;
 }
+.displayNone {
+  display: none;
+}
 .express-header-img, .courier-header-img, .movers-header-img, .cargo-header-img {
   min-height: 300px;
   background-size: cover;
