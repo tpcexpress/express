@@ -99,8 +99,8 @@ section nav a:hover {
     color: #061a31;
 }
 main hr {
-  width: 0%;
-  /**border-top: 1px solid #F17433;**/
+  width: 40%;
+  border-top: 1px solid #fff;
   margin: 2em auto 0;
 
 }
