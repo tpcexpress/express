@@ -119,6 +119,9 @@ main > article {
 article:nth-of-type(3) {
     margin-right: 0;
 }
+main article a {
+  font-size: 80%;
+}
 main article img {
   width: 100%;
   margin-bottom: 1em;
