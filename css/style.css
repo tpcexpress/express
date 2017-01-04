@@ -98,6 +98,12 @@ section nav a:hover {
     background-color: #fff;
     color: #061a31;
 }
+main hr {
+  width: 0%;
+  /**border-top: 1px solid #F17433;**/
+  margin: 2em auto 0;
+
+}
 main > h2 {
     text-align: center;
     font-size: 200%;
@@ -121,13 +127,17 @@ article:nth-of-type(3) {
 }
 main article a {
   font-size: 80%;
+  margin-bottom: 1em;
 }
 main article img {
   width: 100%;
-  margin-bottom: 1em;
+  border-radius: 1%;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
   display: inline-block;
 }
 main img {
+    border-radius: 1%;
     width: 34%;
     margin-top: 4.5%;
     float: left;
@@ -157,6 +167,9 @@ footer section a {
     display: inline-block;
     margin: 0.4% 0;
     font-size: 1.1em;
+}
+.address {
+  margin: 3.5em;
 }
 footer section a:hover {
   color: #F17433;
