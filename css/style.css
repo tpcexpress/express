@@ -58,6 +58,7 @@ header h1 {
 }
 .double-font {
   font-size: 1.5em;
+  margin-top: 4.3em;
 }
 .first-column, .second-column, .third-column, .fourth-column  {
   display: none;
