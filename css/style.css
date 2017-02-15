@@ -24,7 +24,7 @@ a:hover {
     color: #4994de;
 }
 h2, h3 {
-    opacity: 0.8;
+    opacity: 1;
 }
 body > header, .wrapper {
     width: 70%;
