@@ -144,6 +144,9 @@ main img {
     float: left;
     opacity: 0.9;
 }
+#img-courier {
+  margin-top: 0.5%;
+}
 article:last-of-type {
     width: 61.5%;
     text-indent: 10%;
