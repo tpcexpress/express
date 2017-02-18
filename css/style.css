@@ -266,7 +266,8 @@ footer section input:last-of-type {
       background-image: url("http://www.tpcexpress.info/img/courier-mobile.jpg");
   }
   .movers-header-img {
-      background-image: url("http://www.tpcexpress.info/img/movers-mobile.jpg");  
+/*       background-image: url("http://www.tpcexpress.info/img/movers-mobile.jpg");   */
+    background-image: url("http://www.tpcexpress.info/img/movers-mobile2.png");  
   }
   section nav {
       width: 100%;
