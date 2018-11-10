@@ -334,3 +334,13 @@ footer section input:last-of-type {
       font-size: 1.6em;
       margin-top: 0.1em;
 }
+
+@media screen and (min-width: 1500x) {
+
+ .express-header-img, .courier-header-img, .movers-header-img, .cargo-header-img {
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+	
